@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap Project</title>
+
+    <link rel=" stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+<!---This is the nav bar-->   
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><h2>Cozy Cove</h2></a>
+
+      <!--Hamburger buton-->
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destination.html">Destination</a>
+          </li>
+         
+        </ul>
+       
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+     
+    </div>
+    </div>
+  </nav>
+    
+  <!--Hero-->
+
+  <div>
+    <img class="img-fluid" src="/images/Cozy Cove Hotel (500 x 200 px) (1800 x 500 px).png" alt="Cozy Cove Resort">
+  </div>
+ 
+  <!--Welcome-->
+    
+  <h1 class="text-center p-1">Welcome to Cozy Cove where comfort meets style.</h1>
+    <p class="text-center fs-5">Your Luxuary Home Away From Home</p>
+
+    <>
+        <div class="m-3 p-3">
+            <p class="fs-5">Lipsum dolor sit amet consectetur adipisicing elit. Porro ipsam magni eveniet corporis, fugiat maxime. Corporis suscipit provident a maxime aspernatur eligendi nesciunt eius, ad, ab repellendus id quos iusto.</p>
+        </div>
+
+
+  <!--Cards-->
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-lg-3 g-5 m-3 pt-5">
+     
+        <div class="col">
+        <div class="card h-100 shadow-lg" >
+            <img src="/bed.jpg" class="card-img-top" alt="hotel beds for rest">
+            <div class="card-body">
+              <h4 class="card-title">Rest</h4>
+              <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum veritatis dignissimos numquam, repellendus deserunt dolorum architecto amet. Laborum voluptatibus, veniam saepe quia laudantium aut reprehenderit quae mollitia repudiandae repellat?.</p>
+            </div>
+          </div>
+     
+    
+     </div>
+      
+     <div class="col">
+        <div class="card h-100 shadow-lg">
+            <img src="/breakfast.jpg" class="card-img-top" alt=" complemtary breakfast">
+            <div class="card-body">
+              <h4 class="card-title">Eat</h4>
+              <p class="card-text fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel ab nemo aperiam, dolorum expedita quaerat. Perspiciatis, laudantium? Ea ad repellendus laboriosam possimus quidem laudantium fuga dicta impedit eligendi? Deserunt.</p>
+            </div>
+          </div>
+
+
+
+      </div>
+     
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+            <img src="/scenery.jpg" class="card-img-top" alt=" Hotel places to Explore">
+            <div class="card-body">
+              <h4 class="card-title">Explore</h4>
+              <p class="card-text fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe optio accusamus ipsam quod voluptatibus perferendis repellendus, excepturi eos. Ducimus perspiciatis culpa labore ratione architecto autem praesentium at assumenda cupiditate aliquid.</p>
+              
+            </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--Picture Div-->
+
+  <div class="container mt-5 mb-5 pt-5 pb-5 text-center">
+   <div class="m-3 p-5 photo--grid">
+    <div class="row gx-0 g-0">
+      <div class="col-sm-12 pb-3"><h2>Lounge by the pool or visit the spa</h2></div>
+     </div>
+    <div class="row gx-0 g-0">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="/pool2.jpg" alt="Poolside at Cozy Cove Hotel" width="800" 
+        height="800">
+    </div>
+      <div class="col-sm-6">
+       <img class="img-fluid" src="/spa.jpg" alt="Indoor Spa at Cozy Cove" width="800" height="400">   
+    </div>
+    </div>
+    <div class="row gx-0 g-0">
+     <div class="col-sm-6"> 
+        <Img class="img-fluid" src="/gym.jpg" alt="Visit the Gym at Cozy Cove" width="800"
+        height="400">
+     </div>
+     <div class="col-sm-6">
+        <img class="img-fluid" src="/spa3.jpg" alt="Visit the outdoor Cozy Cove Spa" width="800" height="400">
+     </div>
+     </div>
+    </div>
+</div>
+ 
+<!--Image and info-->
+
+<div class="m-auto">
+    <div class=" row text-center mt-5 pb-5 pt-5">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+        <img src="/balcony.jpg" class="img-fluid" width="600" height="400">
+      </div>
+      <div class=" col-lg-2"></div>
+      <div class=" col-lg-12">
+        <h3 class="mt-3"> Rooms with a View</h3>
+      </div>
+    </div>
+    <div class="row gx-0 ms-3 me-3">
+      <div class="col-xl-2"></div>
+      <div class="col-xl-4 fs-5 p-3">
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequatur numquam nulla itaque corporis natus, doloribus blanditiis officia optio similique totam unde placeat quod ipsa culpa, eum reprehenderit veritatis. Illum.</p>
+    </div>
+      <div class="col-xl-4 fs-5 p-3">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat beatae doloribus harum voluptate, officia minima. Magnam minus aliquid laborum, consectetur dolorum voluptatem optio itaque tempore facere dolorem ipsam reprehenderit!</p>
+      </div>
+      <div class="col-xl-2"></div>
+    </div>
+</div>
+
+
+
+<hr class="border border-secondary border-1 opacity-50">
+
+<!--IMG View All Locations-->
+    
+  <div class="container mt-5 pt-5">
+    <div class="card text-bg-light">
+      <a href="/destination.html">
+        <img  src="/hotel.jpg" class="card-img  img-fluid" alt="see all of our locations" width="400">
+        <div class="card-img-overlay">
+          <h3 class="card-title">View all Locations</h3>
+          <p class="card-text fs-6">Relax and take a break anywhere in the world</p>
+        </div>
+      </a>
+      </div>
+  </div>
+
+  <!--Contact Form -->
+<h1 class="text-center mb-4 pt-5">Contact Us</h1>
+<h2 class="text text-center mb-4"> Get more information about Cozy Cove!</h2>
+
+
+<div class="container">
+<form class="row g-3 mb-5 ms-3 me-3 pt-5">
+    <div class="col md-6">
+      <label for="First Name" class="form-label">First Name</label>
+      <input type="text" class="form-control" aria-label="First name" id="First Name">
+    </div>
+    <div class="col col-md-6">
+      <label for="Last Name" class="form-label">Last Name</label>
+      <input type="text" class="form-control" aria-label="Last name" id="Last Name" >
+    </div>
+    <div class="col-12">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
+
+
+  <!--Footer-->
+<footer class="pt-5 pb-5">
+  <div class="text-center p-2">
+    <h5> Cozy Cove Resort & Spa Internation copyrighted 2025</h5>
+  </div>
+</footer>
+
+  
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6{
+  
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> 
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  color: #a87026dc 
+
+}
+
+
+.photo--grid{
+ background-color: rgba(59, 57, 52, 0.863);  
+}
